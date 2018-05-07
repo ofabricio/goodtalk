@@ -1,0 +1,40 @@
+.chat-entry {
+    display: flex;
+    flex-direction: row;
+}
+.profile {
+    padding: 8px;
+}
+.content {
+    padding: 8px 8px 8px 0;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.profile-img {
+    background: var(--b01);
+    height: 48px;
+    width: 48px;
+}
+.name {
+    color: var(--b0B);
+}
+.msg {
+    color: var(--b03);
+    word-break: break-word;
+    text-align: justify;
+}
+.input-mode {
+    background: var(--b02);
+}
+
+input[type=text] {
+    font-family: inherit;
+    font-size: inherit;
+    background: transparent;
+    color: var(--b03);
+    height: 28px;
+    width: 100%;
+    outline: 0;
+    border: 0;
+}

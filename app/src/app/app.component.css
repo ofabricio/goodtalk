@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 3em;
+    justify-content: flex-end;
+}
+
+.chat-entry-list {
+    min-width: 300px;
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: 1em;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.msg-input {
+    min-width: 300px;
+    max-width: 800px;
+    width: 100%;
+}
