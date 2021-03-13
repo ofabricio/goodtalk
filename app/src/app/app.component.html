@@ -1,8 +1,0 @@
-<div class="container">
-    <div class="chat-entry-list" #container>
-        <div *ngFor="let item of chat | async">
-            <chatlog [model]="item"></chatlog>
-        </div>
-    </div>
-    <chatlog class="msg-input" [model]="user" state="input"></chatlog>
-</div>
